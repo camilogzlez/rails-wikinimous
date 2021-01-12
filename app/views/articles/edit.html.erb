@@ -1,0 +1,9 @@
+<div class="form">
+<h2>Edit Article</h2>
+
+<%= simple_form_for(@article) do |a| %>
+  <%= a.input :title %>
+  <%= a.input :content %>
+  <%= a.submit class: "btn btn-primary" %>
+<% end %>
+</div>
